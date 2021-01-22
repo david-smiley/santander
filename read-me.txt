@@ -1,0 +1,14 @@
+There are eclipse project and class files here but they use my own library project that 
+includes all the dependencies.  I have not included the dependencies but if you build
+with maven they will all be downloaded automatically.
+
+To compile and run the unit tests
+	mvn compile
+
+There is also a java application that you can launch via
+	mvn exec:java
+
+These libraries were used
+	google guice -	for dependency injection (version 4.0)
+	slf4j        -  for logging (version 1.7.30) 
+	junit        -  unit test framework (version 4.13)
